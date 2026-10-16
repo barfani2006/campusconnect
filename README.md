@@ -1,3 +1,4 @@
+
 # CampusConnect — Web Prototype
 
 A responsive, student-first campus utility prototype using the CampusConnect warm ivory / burgundy / antique-gold theme.
@@ -49,3 +50,7 @@ Example POST body:
 
 ## Update
 The static-file handler sends HTML/CSS/JS as their original bytes with the appropriate content type. If you previously ran the broken version, stop the server with `Ctrl+C`, replace the extracted files with this ZIP, then run `npm start` again.
+
+# campusconnect
+connect every experience of campus at oneplace
+b3f01c9bd51432ff1d0a8e4e4d5c3862ecbd8b8c

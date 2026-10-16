@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#722f37" />
+  <title>CampusConnect — One campus. One app.</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="announcement"><span class="announcement-dot"></span> Student-first campus utility <span class="announcement-sep">·</span> Free for students</div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="CampusConnect home">
+      <span class="brand-mark">cc</span>
+      <span>Campus<span>Connect</span><small>ONE CAMPUS. EVERY NEED.</small></span>
+    </a>
+    <nav class="desktop-nav">
+      <a href="#explore">Explore</a><a href="#events">Campus life</a><a href="#how">How it works</a>
+    </nav>
+    <div class="header-actions"><button class="text-button" id="savedButton">♡ Saved <span id="savedCount">0</span></button><button class="primary-button small" id="openPost">＋ Add listing</button></div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> YOUR CAMPUS, CONNECTED</div>
+        <h1>College life,<br/><em>minus the</em> searching.</h1>
+        <p class="hero-description">Find affordable essentials, local food offers, study resources, events, and opportunities — all in one student-friendly place.</p>
+        <div class="hero-actions"><a class="primary-button" href="#explore">Explore campus <span>↗</span></a><button class="secondary-button" id="heroPost">Share something</button></div>
+        <div class="hero-proof"><div class="avatar-stack"><span>R</span><span>A</span><span>M</span><span>+</span></div><div><strong>Made for student life</strong><small>Useful finds. Local connections. Less hassle.</small></div></div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+        <div class="hero-note note-top"><span class="note-icon">✦</span><div><strong>Good finds, nearby</strong><small>Student-friendly prices</small></div></div>
+        <div class="phone">
+          <div class="phone-top"><span>9:41</span><span>●●● ▰</span></div>
+          <div class="phone-greeting"><small>MONDAY, YOUR CAMPUS</small><h3>Hey there <span>✳</span></h3><p>What are you looking for?</p></div>
+          <div class="phone-search">⌕ &nbsp; Books, food, events...</div>
+          <div class="phone-grid">
+            <div class="phone-tile tile-burgundy"><span>▤</span><b>Books</b><small>Swap & save</small></div>
+            <div class="phone-tile tile-gold"><span>☕</span><b>Food</b><small>Deals nearby</small></div>
+            <div class="phone-tile tile-sand"><span>✎</span><b>Study</b><small>Learn together</small></div>
+            <div class="phone-tile tile-pink"><span>✳</span><b>Events</b><small>What's on</small></div>
+          </div>
+          <div class="phone-feature"><div class="feature-thumb">📚</div><div><small>STUDENT PICK</small><b>Textbooks at better prices</b><span>Explore the book market ↗</span></div></div>
+          <div class="phone-bottom"><span>⌂<small>Home</small></span><span>⌕<small>Explore</small></span><span>♡<small>Saved</small></span><span>☻<small>Profile</small></span></div>
+        </div>
+        <div class="hero-note note-bottom"><span class="deal-symbol">%</span><div><strong>Student offers</strong><small>Discover local deals</small></div></div>
+        <div class="floating-star">✳</div>
+      </div>
+      <div class="hero-bottom-line"><span>BUILT AROUND REAL CAMPUS NEEDS</span><span>BOOKS · FOOD · STUDY · EVENTS · OPPORTUNITIES</span></div>
+    </section>
+
+    <section class="quick-stats" aria-label="CampusConnect principles">
+      <div><span class="stat-icon">♡</span><span><strong>Free for students</strong><small>No premium membership</small></span></div>
+      <div><span class="stat-icon">⌕</span><span><strong>All in one place</strong><small>Less searching, more doing</small></span></div>
+      <div><span class="stat-icon">↗</span><span><strong>Local connections</strong><small>Students meet suppliers</small></span></div>
+    </section>
+
+    <section class="section explore-section" id="explore">
+      <div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> THE CAMPUS SHORTCUT</div><h2>What do you need <em>today?</em></h2><p>Start with a category. Your next useful find might be one click away.</p></div><span class="section-index">01 / EXPLORE</span></div>
+      <div class="category-grid" id="categoryGrid">
+        <button class="category-card active" data-category="All"><span class="category-symbol">✳</span><span><b>Everything</b><small>All campus finds</small></span><span class="category-arrow">↗</span></button>
+        <button class="category-card" data-category="Books"><span class="category-symbol">▤</span><span><b>Books & essentials</b><small>Second-hand and supplies</small></span><span class="category-arrow">↗</span></button>
+        <button class="category-card" data-category="Food"><span class="category-symbol">☕</span><span><b>Food & offers</b><small>Local bites and deals</small></span><span class="category-arrow">↗</span></button>
+        <button class="category-card" data-category="Study"><span class="category-symbol">✎</span><span><b>Study resources</b><small>Authorized materials</small></span><span class="category-arrow">↗</span></button>
+        <button class="category-card" data-category="Events"><span class="category-symbol">✳</span><span><b>Events & clubs</b><small>What's happening</small></span><span class="category-arrow">↗</span></button>
+        <button class="category-card" data-category="Opportunities"><span class="category-symbol">↗</span><span><b>Opportunities</b><small>Projects and growth</small></span><span class="category-arrow">↗</span></button>
+      </div>
+    </section>
+
+    <section class="section listings-section">
+      <div class="section-heading listing-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> THE CAMPUS BOARD</div><h2>Useful things. <em>Real close.</em></h2><p>Illustrative demo listings to show how the community board could work.</p></div>
+        <div class="listing-controls"><label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Search campus..." aria-label="Search listings"></label><button class="filter-button" id="clearFilters">Reset</button></div>
+      </div>
+      <div class="listing-toolbar"><span id="resultCount">Showing campus picks</span><span class="demo-label"><span></span> SAMPLE LISTINGS</span></div>
+      <div class="listing-grid" id="listingGrid"><div class="loading-card">Finding useful campus picks…</div></div>
+      <div class="center-action"><button class="secondary-button" id="viewAll">Show all listings <span>↓</span></button></div>
+    </section>
+
+    <section class="event-band" id="events">
+      <div class="event-decoration">✳</div><div class="event-copy"><div class="eyebrow light"><span class="eyebrow-line"></span> MORE THAN A MARKETPLACE</div><h2>Campus life happens<br/><em>when we connect.</em></h2><p>Discover workshops, club activities, peer projects, and the little things that make college memorable.</p><a href="#explore" class="light-link">Explore campus categories <span>↗</span></a></div>
+      <div class="event-cards"><div class="event-mini"><span class="event-mini-icon">✳</span><small>LEARN SOMETHING</small><b>Workshops & clubs</b><span class="mini-arrow">↗</span></div><div class="event-mini"><span class="event-mini-icon">⌘</span><small>MAKE SOMETHING</small><b>Peer projects</b><span class="mini-arrow">↗</span></div><div class="event-mini"><span class="event-mini-icon">↗</span><small>GROW YOUR SKILLS</small><b>Student opportunities</b><span class="mini-arrow">↗</span></div></div>
+    </section>
+
+    <section class="section how-section" id="how">
+      <div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> SIMPLE BY DESIGN</div><h2>Four steps. <em>Less hassle.</em></h2></div><span class="section-index">02 / HOW IT WORKS</span></div>
+      <div class="steps-grid"><div class="step-card"><span class="step-number">01</span><div class="step-icon">⌕</div><h3>Open & explore</h3><p>Choose the campus category that fits what you need.</p></div><div class="step-card"><span class="step-number">02</span><div class="step-icon">▤</div><h3>Find your match</h3><p>Browse useful listings, offers, resources, and activities.</p></div><div class="step-card"><span class="step-number">03</span><div class="step-icon">↗</div><h3>Connect directly</h3><p>Contact a seller, check an offer, or join an activity.</p></div><div class="step-card"><span class="step-number">04</span><div class="step-icon">♡</div><h3>Save what matters</h3><p>Keep interesting listings handy in your saved list.</p></div></div>
+    </section>
+
+    <section class="supplier-cta">
+      <div class="supplier-icon">✳</div><div><div class="eyebrow light"><span class="eyebrow-line"></span> FOR LOCAL BUSINESSES</div><h2>Reach students. <em>Make it useful.</em></h2><p>Local cafés, bookshops, stationery stores, and other suppliers can share relevant offers with the campus community.</p></div><button class="light-button" id="supplierPost">Add a business offer <span>↗</span></button>
+    </section>
+    <section class="trust-note"><span class="trust-mark">✓</span><div><strong>Student-first, always.</strong><p>Student access is free. Sponsored placements should be clearly labeled. Learning materials must be authorized, and personal data should be handled responsibly.</p></div></section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#"><span class="brand-mark">cc</span><span>Campus<span>Connect</span><small>ONE CAMPUS. EVERY NEED.</small></span></a><p>A student startup concept built around everyday campus life.</p><div><a href="#explore">Explore</a><a href="#how">How it works</a><button id="footerPost">Add listing</button></div><small class="footer-bottom">© 2026 CampusConnect · Prototype with sample data</small></footer>
+
+  <div class="modal-backdrop" id="postModal" aria-hidden="true">
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="closeModal" aria-label="Close">×</button>
+      <div class="eyebrow"><span class="eyebrow-line"></span> COMMUNITY BOARD</div><h2 id="modalTitle">Share something <em>useful.</em></h2><p class="modal-intro">Add a sample listing to the demo board. Please do not include private contact information.</p>
+      <form id="listingForm">
+        <label>Listing title<input name="title" required maxlength="90" placeholder="e.g. Second-hand chemistry book"></label>
+        <div class="form-row"><label>Category<select name="category" required><option value="Books">Books & essentials</option><option value="Food">Food & offers</option><option value="Essentials">College essentials</option><option value="Study">Study resources</option><option value="Events">Events & clubs</option><option value="Opportunities">Opportunities</option></select></label><label>Price (₹)<input name="price" type="number" min="0" value="0"></label></div>
+        <label>Short description<input name="detail" maxlength="160" placeholder="Condition, timing, or details"></label>
+        <label>Posted by<input name="seller" maxlength="60" placeholder="Your name or business name"></label>
+        <div class="form-message" id="formMessage" role="status"></div>
+        <button class="primary-button submit-button" type="submit">Add to campus board <span>↗</span></button>
+        <small class="form-disclaimer">Demo only: listings are held in server memory and reset when the server restarts.</small>
+      </form>
+    </section>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="/app.js"></script>
+</body>
+</html>
